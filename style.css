@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+html,body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+  background-color: #373737;
+}
+
+pre#result {
+  margin: 0;
+  padding: 5px 10px;
+  background-color: #373737;
+  color: #ececec;
+  line-height: 1.3em;
+  word-wrap: break-all;
+  white-space: pre-wrap;
+  font-size: 16px;
+}
+
+form {
+  position: sticky;
+  z-index: 1;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  display: flex;
+}
+
+input {
+  font-size: 16px;
+}
+
+input[type=text] {
+  flex: 1;
+  margin-right: 5px;
+}
+
+#result > .cmd::before {
+  content: ". ";
+}
+#result > .cmd {
+  color: white;
+  font-weight: bold;
+}
