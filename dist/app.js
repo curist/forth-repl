@@ -253,13 +253,13 @@
   var WasmForth = __toModule(require_wasm_forth());
 
   // node_modules/wasm-forth/dist/kernel.wasm
-  var kernel_default = "/dist/kernel.5NER7SE2.wasm";
+  var kernel_default = "/forth-repl/kernel.5NER7SE2.wasm";
 
   // node_modules/wasm-forth/dist/core.f
-  var core_default = "/dist/core.5S33DRZU.f";
+  var core_default = "/forth-repl/core.5S33DRZU.f";
 
   // node_modules/wasm-forth/dist/vdom.f
-  var vdom_default = "/dist/vdom.2S3NVEUL.f";
+  var vdom_default = "/forth-repl/vdom.2S3NVEUL.f";
 
   // app.js
   var log = console.log.bind(console);
